@@ -34,7 +34,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 
 2. **Clone the repository**
-`git clone https://github.com/byersrwn/Drone-Relay-Simulation.git`
+`git clone https://github.com/TomWang233/GazeboNS3.git`
 
 3. **`cd` into gazebo/**
 
