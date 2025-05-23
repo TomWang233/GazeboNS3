@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="iris_runway">
+    <physics name="1.5ms" type="ignore">
+      <max_step_size>0.0015</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <dart>
+	<solver>
+          <solver_type>pgs</solver_type>
+	</solver>
+	<collision_detector>bullet</collision_detector>
+      </dart>
+    </physics>
+
+    <plugin filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin filename="gz-sim-imu-system"
+      name="gz::sim::systems::Imu">
+    </plugin>
+    <plugin filename="gz-sim-navsat-system"
+      name="gz::sim::systems::NavSat">
+    </plugin>
+
+    <scene>
+      <ambient>1.0 1.0 1.0</ambient>
+      <background>0.8 0.8 0.8</background>
+      <sky></sky>
+    </scene>
+
+    <spherical_coordinates>
+      <latitude_deg>0.00003</latitude_deg>
+      <longitude_deg>0.00004</longitude_deg>
+      <elevation>0.0</elevation>
+      <heading_deg>0</heading_deg>
+      <surface_model>EARTH_WGS84</surface_model>
+    </spherical_coordinates>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.8 0.8 0.8 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <include>
+      <uri>model://runway</uri>
+      <pose degrees="true">-29 545 0 0 0 363</pose>
+    </include>
+
+    <include>
+      <uri>model://iris_with_gimbal_1</uri>
+      <pose degrees="true">0 0 0.195 0 0 90</pose>
+      <name>iris_with_gimbal_1</name>
+    </include>
+
+    <include>
+      <uri>model://iris_with_gimbal_2</uri>
+      <pose degrees="true">0 5.0 0.195 0 0 90</pose>
+      <name>iris_with_gimbal_2</name>
+    </include>
+
+    <include>
+      <uri>model://iris_with_gimbal_3</uri>
+      <pose degrees="true">5.0 0 0.195 0 0 90</pose>
+      <name>iris_with_gimbal_3</name>
+    </include>
+
+    <include>
+      <uri>model://iris_with_gimbal_4</uri>
+      <pose degrees="true">5 5 0.195 0 0 90</pose>
+      <name>iris_with_gimbal_4</name>
+    </include>
+
+
+    <!--<include>-->
+    <!--  <uri>model://iris_with_gimbal_5</uri>-->
+    <!--  <pose degrees="true">0 20.0 0.195 0 0 90</pose>-->
+    <!--  <name>iris_with_gimbal_5</name>-->
+    <!--</include>-->
+    <!---->
+    <!--<include>-->
+    <!--  <uri>model://iris_with_gimbal_6</uri>-->
+    <!--  <pose degrees="true">0 25.0 0.195 0 0 90</pose>-->
+    <!--  <name>iris_with_gimbal_6</name>-->
+    <!--</include>-->
+    <!---->
+    <!--<include>-->
+    <!--  <uri>model://iris_with_gimbal_7</uri>-->
+    <!--  <pose degrees="true">0 30.0 0.195 0 0 90</pose>-->
+    <!--  <name>iris_with_gimbal_7</name>-->
+    <!--</include>-->
+    <!---->
+    <!--<include>-->
+    <!--  <uri>model://iris_with_gimbal_8</uri>-->
+    <!--  <pose degrees="true">0 35.0 0.195 0 0 90</pose>-->
+    <!--  <name>iris_with_gimbal_8</name>-->
+    <!--</include>-->
+    <!---->
+    <!--<include>-->
+    <!--  <uri>model://iris_with_gimbal_9</uri>-->
+    <!--  <pose degrees="true">0 40.0 0.195 0 0 90</pose>-->
+    <!--  <name>iris_with_gimbal_9</name>-->
+    <!--</include>-->
+    <!---->
+    <!--<include>-->
+    <!--  <uri>model://iris_with_gimbal_10</uri>-->
+    <!--  <pose degrees="true">0 45.0 0.195 0 0 90</pose>-->
+    <!--  <name>iris_with_gimbal_10</name>-->
+    <!--</include>-->
+  </world>
+</sdf>

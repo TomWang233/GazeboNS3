@@ -1,0 +1,20 @@
+services:
+  gazebo:
+    image: new-gazebo:latest
+    environment:
+      - DISPLAY=${DISPLAY}           # Use host's display for GUI applications
+      - QT_X11_NO_MITSHM=1           # Prevent shared memory errors in X11
+      - GAZEBO_IP=127.0.0.1          # Ensure Gazebo communicates on the loopback address
+      - GAZEBO_MASTER_URI=http://127.0.0.1:11345  # Set the master URI for Gazebo
+      - LIBVA_DRIVER_NAME=radeonsi
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw   # Share X11 socket with the container for GUI
+      - ./data:/data:rw  # Share data volume with the container
+    devices:
+      - /dev/dri/renderD128  # Access to AMD GPU through Direct Rendering Interface (DRI)
+      - /dev/dri/card1  # Access to AMD GPU through Direct Rendering Interface (DRI)
+    network_mode: "host"  # Use host networking to simplify communication
+    # Run bash
+    command: bash
+    stdin_open: true
+    tty: true

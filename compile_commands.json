@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/drone-control.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/drone-control.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/drone-control.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/drone-control.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/drone-process.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/drone-process.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/drone-process.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/drone-process.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/static-behavior.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/static-behavior.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/static-behavior.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/static-behavior.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/headquarters-process.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/headquarters-process.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/headquarters-process.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/headquarters-process.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/actor-process.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/actor-process.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/actor-process.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/actor-process.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/sim/ns3-bridge.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/sim/ns3-bridge.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/sim/ns3-bridge.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/sim/ns3-bridge.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/sim/ns3-utils.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/sim/ns3-utils.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/sim/ns3-utils.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/sim/ns3-utils.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/sim/world_parser.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/sim/world_parser.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/sim/world_parser.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/sim/world_parser.cpp.o"
+},
+{
+  "directory": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/doriancauwe/Mines/Drone-Relay-Simulation -I/usr/local/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/mavsdk -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/DroneControl.dir/src/libs/tinyxml2.cpp.o -c /Users/doriancauwe/Mines/Drone-Relay-Simulation/src/libs/tinyxml2.cpp",
+  "file": "/Users/doriancauwe/Mines/Drone-Relay-Simulation/src/libs/tinyxml2.cpp",
+  "output": "CMakeFiles/DroneControl.dir/src/libs/tinyxml2.cpp.o"
+}
+]
