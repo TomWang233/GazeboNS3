@@ -1,7 +1,3 @@
-# Drone-Relay-Simulation
-
-## Design
-
 ## System Setup and Configuration
 
 It is recommended to use a Linux system to run the simulation, as the Docker container uses the host's display to render the gazebo client and hardware graphics acceleration inside a Docker container is difficult on MacOS and Windows. Ubuntu is assumed here, but equivalent instructions should work for other distributions.
